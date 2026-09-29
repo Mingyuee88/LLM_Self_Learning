@@ -10,7 +10,7 @@ layout: post
 <div style="display: flex; align-items: stretch; margin-bottom: 20px;">
   <!-- 左侧：图片 -->
   <div style="flex: 0 0 30%; padding-right: 20px; text-align: center; display: flex; flex-direction: column; justify-content: flex-start;">
-    <img src="/assets/RIAIoTJinYongJimmy560860.png" alt="Dr. Yong Jin"
+    <img src="{{ '/assets/RIAIoTJinYongJimmy560860.png' | relative_url }}" alt="Dr. Yong Jin"
          style="width: 80%; height: auto; max-height: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: auto;">
     <p style="font-size: 0.9em; margin-top: 5px;"><em>Dr. Yong Jin</em></p>
   </div>
